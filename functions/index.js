@@ -4,8 +4,7 @@
  // Import the Dialogflow module from the Actions on Google client library.
 const {dialogflow, Permission} = require('actions-on-google');
 const functions = require('firebase-functions');
-const {WebhookClient} = require('dialogflow-fulfillment');
-const {Card, Suggestion} = require('dialogflow-fulfillment');
+const {Card, Suggestion, WebhookClient} = require('dialogflow-fulfillment');
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 // Instantiate the Dialogflow client.
